@@ -1,6 +1,6 @@
 {
     "name": "lukezbihlyj/silex-router",
-    "description": "Routing component to be used with silex-plus.",
+    "description": "Routing module to be used with the silex-plus package to provide configurable routing.",
     "type": "library",
     "require": {
         "php": ">=5.4",
