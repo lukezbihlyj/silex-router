@@ -25,7 +25,7 @@ class Module implements ModuleInterface
      */
     public function init(Application $app)
     {
-        $this->register(new RoutingServiceProvider('router.routes'));
-        $this->register(new UrlGeneratorServiceProvider());
+        $app->register(new RoutingServiceProvider('router.routes'));
+        $app->register(new UrlGeneratorServiceProvider());
     }
 }
